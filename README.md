@@ -22,13 +22,13 @@ Power BI (Data Cleaning and Preparation in Power Query, Measures and Date table 
 
 5. Creating new columns to assist with analysis:
 
-6. Admission Date: Extract out only the date from date and time 
+  - Admission Date: Extract out only the date from date and time 
 
-7. Age Group: Use conditional column to group patients into different age bands
+  - Age Group: Use conditional column to group patients into different age bands
 
-8. Wait Time: Use conditional column to split wait time to different groups
+  - Wait Time: Use conditional column to split wait time to different groups
 
-9. Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
+6. Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
 
 
 
