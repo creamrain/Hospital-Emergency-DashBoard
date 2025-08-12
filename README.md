@@ -51,7 +51,9 @@ EDA involved exploring the emergency room data to answer key questions such as
 ### Key Takeaways
 
 #### Number of Patients By Day and Hour (2023-2024)
-<img width="520" height="565" alt="image" src="https://github.com/user-attachments/assets/a6015397-a340-404b-abd3-8c0faa592dab" />
+
+<img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/a6015397-a340-404b-abd3-8c0faa592dab" />
+
 
 The busiest day is Saturday(1377 Patients), followed by Thursday(1332 Patients), and Sunday(1318 Patients).
 The least busy day is Wednesday (1260 Patients)
@@ -70,6 +72,12 @@ White people make up the largest number of patients visiting the ER (27.9%), fol
 However, both Native Americans(5.4%) and Pacific Islanders (5.4%) make up the smallest proportion of total patients visiting the Emergency Room.
 
 ### Wait Time by Gender and Race)
+
+<img width="485" height="212" alt="Screenshot 2025-08-12 145215" src="https://github.com/user-attachments/assets/d9761acf-56ea-4831-9a8d-658b54d93619" />
+
+<img width="500" height="236" alt="Screenshot 2025-08-12 145537" src="https://github.com/user-attachments/assets/94d72627-2dfb-4479-b1d8-1723bde21449" />
+
+In general, there is not much difference in wait time between patients of different races and genders, suggesting a rather fair system.
 
 
 Sun: 1318
