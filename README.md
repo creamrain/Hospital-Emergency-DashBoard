@@ -60,6 +60,16 @@ The busiest Hour is 22:00 - 23:00(808 Patients), followed by 06:00 - 07:00(790 P
 
 Based on these data, the busiest days and hours tend to lie on the weekends and happen late at night or early in the morning. This is the case as patients might have postponed their medical visits until after work or school, or because most regular doctors' offices and clinics are closed at these times.
 
+### Patient Demographics (2023-2024)
+
+The percentage of male and female patients is relatively similar, where they each make up close to half of the total number of patients. 
+
+The 30-39(1200 Patients) and 20-29(1188 Patients) age group makes up a large portion of the patients visiting the Emergency R Room. Meanwhile, the 0-9 age group makes up the smallest portion of the patients visiting the ER.
+
+White people make up the largest number of patients visiting the ER (27.9%), followed by African Americans (21.2%).
+However, both Native Americans(5.4%) and Pacific Islanders (5.4%) make up the smallest proportion of total patients visiting the Emergency Room.
+
+### Wait Time by Gender and Race)
 
 
 Sun: 1318
