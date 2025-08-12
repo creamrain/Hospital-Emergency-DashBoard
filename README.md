@@ -48,7 +48,24 @@ EDA involved exploring the emergency room data to answer key questions such as
 - What are the common departments that patients are referred to?
 
 
+### Key Takeaways
+
+#### Number of Patients By Day and Hour (2023-2024)
+<img width="520" height="565" alt="image" src="https://github.com/user-attachments/assets/a6015397-a340-404b-abd3-8c0faa592dab" />
+
+The busiest day is Saturday(1377 Patients), followed by Thursday(1332 Patients), and Sunday(1318 Patients).
+The least busy day is Wednesday (1260 Patients)
+
+The busiest Hour is 22:00 - 23:00(808 Patients), followed by 06:00 - 07:00(790 Patients), and 00:00 - 01:00(778 Patients)
+
+Based on these data, the busiest days and hours tend to lie on the weekends and happen late at night or early in the morning. This is the case as patients might have postponed their medical visits until after work or school, or because most regular doctors' offices and clinics are closed at these times.
 
 
 
+Sun: 1318
+Mon 1314
+tue: 1305
+wed: 1260
+thurs 1332
+fri: 1310
     
