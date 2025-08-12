@@ -30,6 +30,24 @@ Power BI (Data Cleaning and Preparation in Power Query, Measures and Date table 
 
 6. Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
 
+### Some Measures
+- Correlation Coefficient
+- Number Of Patients = DISTINCTCOUNT('Hospital ER_Data'[Patient Id])
+- Average Wait Time = AVERAGE('Hospital ER_Data'[Patient Waittime])
+- Number Of Patients Referred = CALCULATE(COUNTROWS('Hospital ER_Data'),'Hospital ER_Data'[Department Referral]<>"None")
+- Hospital Admission = CALCULATE(COUNT('Hospital ER_Data'[Patient Admission Flag]), ('Hospital ER_Data'[Patient Admission Flag] = "TRUE"))
+- Admission Rates = DIVIDE([Hospital Admission],[Number Of Patients],0)
+
+### Exploratory Data Analysis
+EDA involved exploring the emergency room data to answer key questions such as 
+- What is the busiest day and hour for the Emergency Room?
+- What is the patient demographic? (Race, Gender, and Age)
+- Does the wait time differ by race or gender?
+- Is there any correlation between patient satisfaction and wait time
+- Is there any possible relationship between patient satisfaction, wait time, and age
+- What are the common departments that patients are referred to?
+
+
 
 
 
