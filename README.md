@@ -19,11 +19,14 @@ Replacing short forms such as F,M, and CM to Female, Male, and Not Confirmed und
 Changing data type from date/time to time for my new 'Start of Hour Column'
 
 Creating new columns to assist with analysis:
+
 Admission Date: Extract out only the date from date and time 
+
 Age Group: Use conditional column to group patients into different age bands
+
 Wait Time: Use conditional column to split wait time to different groups
 
-Create Date Table in Dax to assist with analysis of data over Year, Month, and Day.
+Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
 
 
 
