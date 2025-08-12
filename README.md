@@ -79,6 +79,7 @@ However, both Native Americans(5.4%) and Pacific Islanders (5.4%) make up the sm
 
 In general, there is not much difference in wait time between patients of different races and genders, suggesting a rather fair system.
 
+### Correlation between Patient Satisfaction and Wait Time
 
 Sun: 1318
 Mon 1314
