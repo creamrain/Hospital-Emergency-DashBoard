@@ -12,21 +12,23 @@ Power BI (Data Cleaning and Preparation in Power Query, Measures and Date table 
 
 ### Data Cleaning and Preparation
 
-Data Loading and inspection (Specific: check for row duplicates by checking if all patient IDs are unique)
+1. Data Loading and inspection:
 
-Replacing short forms such as F,M, and CM to Female, Male, and Not Confirmed under the Patient Gender Column
+2. Check for row duplicates by checking if all patient IDs are unique)
 
-Changing data type from date/time to time for my new 'Start of Hour Column'
+3. Replacing short forms such as F,M, and CM to Female, Male, and Not Confirmed under the Patient Gender Column
 
-Creating new columns to assist with analysis:
+4. Changing data type from date/time to time for my new 'Start of Hour Column'
 
-Admission Date: Extract out only the date from date and time 
+5. Creating new columns to assist with analysis:
 
-Age Group: Use conditional column to group patients into different age bands
+6. Admission Date: Extract out only the date from date and time 
 
-Wait Time: Use conditional column to split wait time to different groups
+7. Age Group: Use conditional column to group patients into different age bands
 
-Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
+8. Wait Time: Use conditional column to split wait time to different groups
+
+9. Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
 
 
 
