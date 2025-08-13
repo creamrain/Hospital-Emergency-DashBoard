@@ -1,5 +1,6 @@
 # Hospital Emergency Room Analysis
 
+This is a Power BI project I have done after taking the Excel Skills for Data Analytics and Visualization Specialization from Macquarie University.
 
 ### Project Overview
 This data analysis project aims to provide insights into the efficiency of a Hospital Emergency Room, enabling the hospital to make data-driven decisions to improve its efficiency and patient satisfaction.
