@@ -24,9 +24,9 @@ Power BI (Data Cleaning and Preparation in Power Query, Measures and Date table 
 
   - Admission Date: Extract out only the date from date and time 
 
-  - Age Group: Use conditional column to group patients into different age bands
+  - Age Group: Use a conditional column to group patients into different age bands
 
-  - Wait Time: Use conditional column to split wait time to different groups
+  - Wait Time: Use a conditional column to split wait time to different groups
 
 6. Create a Date Table in DAX to assist with analysis of data over Year, Month, and Day.
 
@@ -71,20 +71,30 @@ The 30-39(1200 Patients) and 20-29(1188 Patients) age group makes up a large por
 White people make up the largest number of patients visiting the ER (27.9%), followed by African Americans (21.2%).
 However, both Native Americans(5.4%) and Pacific Islanders (5.4%) make up the smallest proportion of total patients visiting the Emergency Room.
 
-### Wait Time by Gender and Race)
+### Wait Time by Gender and Race
 
 <img width="485" height="212" alt="Screenshot 2025-08-12 145215" src="https://github.com/user-attachments/assets/d9761acf-56ea-4831-9a8d-658b54d93619" />
 
 <img width="500" height="236" alt="Screenshot 2025-08-12 145537" src="https://github.com/user-attachments/assets/94d72627-2dfb-4479-b1d8-1723bde21449" />
 
-In general, there is not much difference in wait time between patients of different races and genders, suggesting a rather fair system.
+In general, there is not much difference in wait time between patients of different races and genders, suggesting a rather fair queuing system.
 
 ### Correlation between Patient Satisfaction and Wait Time
 
-Sun: 1318
-Mon 1314
-tue: 1305
-wed: 1260
-thurs 1332
-fri: 1310
-    
+<img width="512" height="200" alt="image" src="https://github.com/user-attachments/assets/be6b414f-7a53-43ae-9cb7-5d46f92f612b" />
+
+The correlation coefficient is 0.43, indicating that there is a moderate positive correlation between patient satisfaction
+and wait time. This tells us that there are likely other factors beyond wait time.
+
+### Relationship between Patient Satisfaction, Wait Time, and Age
+
+<img width="350" height="400" alt="Screenshot 2025-08-13 150529" src="https://github.com/user-attachments/assets/f9c94cb4-1348-4f29-91ff-37ae183c72c9" />
+
+In general, patients in age groups (10-19), (30-39), and (40-49) tend to be much less satisfied when wait time exceeds 40 minutes. Patients of ages 70-79 have much lower satisfaction regardless of time when compared to other age groups.
+
+### Departments patients are usually referred to
+
+<img width="484" height="203" alt="Screenshot 2025-08-13 152018" src="https://github.com/user-attachments/assets/5068e207-fa0d-4640-af0f-da42a4980637" />
+
+In general, the proportion of patients referred to the various departments is relatively similar across all age groups.
+The department with the greatest number of referrals is general practice, while the department with the least number of referrals is renal.
